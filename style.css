@@ -9,8 +9,13 @@ header{
     background-color: rgb(13, 1, 1);
     color: rgb(222, 214, 214);
     padding: 20px 40px ;
-     font-family: "Open Sans", sans-serif;
+    font-family: "Epilogue", sans-serif;
 
+}
+.lge {
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
 }
 ul{
     display: flex;
@@ -36,7 +41,7 @@ text-align: center;
 .container{
    width: 800px;
    margin: auto;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Epilogue", sans-serif;
 }
 .content{
     display: block;
@@ -46,9 +51,16 @@ text-align: center;
 }
 .content h2{
     margin-bottom: 10px;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: left;
+    
+    
 }
 .content p {
     margin-bottom: 30px;
+    font-size: 14px;
+    
 }
 .btn{
     background-color: white;
@@ -61,7 +73,7 @@ text-align: center;
 .services{
     padding: 100px 0;
     margin-bottom: 60px;
-     font-family: "Open Sans", sans-serif;
+     font-family: "Epilogue", sans-serif;
 }
 .container1{
     width: 900px;
@@ -82,20 +94,31 @@ text-align: center;
     width: 100px;
     height: 100px;   
 }
+.svr h3{
+    font-size: 24px;
+    font-style: 600px;
+
+}
+.svr p{
+    font-size: 15px;
+    font-style: 400px;
+}
 .container1 h2{
     text-align: center;
     font-weight: bold;
+    font-size: 28px;
+    font-style: 600px;
 }
 .logos{
     background-color: black;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
     padding: 50px 0;
 }
 .réalisations{
-     font-family: "Open Sans", sans-serif;
+     font-family: "Epilogue", sans-serif;
      text-align: center;
 
 }
@@ -105,6 +128,7 @@ text-align: center;
       margin-bottom: 60px;
        margin-top: 25px;
        align-items: center;
+       font-size: 18px;
 
 }
 .rea{
@@ -125,16 +149,22 @@ text-align: center;
     height: auto;
     
 }
+
 .témoignages{
     background-color: white;
     text-align: center;
-    padding: 80px 0;
+    padding: 120px 0;
+    margin-top: 60px 0 ;
+    margin-bottom: 60px;
+    font-family: "Epilogue", sans-serif;
+    height: 50vh;
 }
 .avis{
     display: flex;
      justify-content: center;
     flex-wrap: wrap;
     gap: 5px;
+    margin-top: 50px;
 }
 .tem{
      width: 350px;
@@ -147,7 +177,6 @@ text-align: center;
     text-align: center;
     margin-bottom: 10px;
     align-items: center;
-    padding-top: 40px;
     margin: 0;
 }
 .tem p {
@@ -160,7 +189,7 @@ text-align: center;
     text-align: center;
     font-weight: bold;
       margin-bottom: 60px;
-       margin-top: 25px;
+       margin-top: 5px;
        align-items: center;
 }
 .avis p{
@@ -172,19 +201,76 @@ text-align: center;
     height: 50px;
     border-radius: 50%;
 }
-.footer{
-    background-color: black;
-    color: white;
-    align-items: center;
-    padding: 60px 0;
-}
+
 .photoetoile{
     display: flex;
     justify-content: space-between;
     gap: 5px;
-    margin-top: 10px;
+    margin-top: 5px;  
+}
+p{
+    margin-top: 0;
+}
+.etoiles{
+    margin-right: 200px;
+}
+.noms img{
+    margin-left: 20px;
+    
+}
+.footer{
+    background-color: black;
+    color: white;
+    align-items: center;
+    font-family: "Epilogue", sans-serif;
+    font-size: 15px;
+    padding: 100px 0;
+    height: 30vh;
+    
    
 }
+.logos3{
+    color: rgb(244, 241, 241);
+    font-size: 20px;
+    margin: 15px;
+    gap: 10px;
+    display: flex;
+    
+}
+.contenu3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.formulaire{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 10px;
+   
+   
+}
+.formulaire button{
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.input{
+    padding: 10px 20px;
+    
+}
+.ft{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.container5 h2{
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 60px;
+       margin-top: 5px;
+}
+
 
 
 
